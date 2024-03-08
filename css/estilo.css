@@ -1,0 +1,92 @@
+#contenedor{
+    /*background-color: aquamarine;*/
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+}
+#caja1{
+    width: 400px;
+    height: 900px;
+    background-color: red;
+    margin: 5px;
+    display: block;
+
+}
+#caja2{
+    width: 400px;
+    height: 900px;
+    background-color: yellow;
+    display: flex;
+    margin: 5px;
+    display: block;
+}
+#caja3{
+    width: 400px;
+    height: 900px;
+    background-color: green;
+    display: inline-flex;
+    margin: 5px;
+}
+
+.caja1-1{
+    margin: 2px;
+    display: inline-flex;
+}
+.caja1-1-1{
+    width: 120px;
+    height: 200px;
+    background-color: gray;
+    margin: 5px;
+}
+
+
+.caja1-2{
+    margin: 2px;
+    display: block;
+    flex-direction: column;
+}
+.caja1-2-1{
+    width: 380px;
+    height: 140px;
+    background-color: gray;
+    margin: 5px;
+}
+.caja1-3{
+    margin: 2px;
+    display: inline-flex;
+}
+.caja1-3-1{
+    width: 120px;
+    height: 200px;
+    background-color: gray;
+    margin: 5px;
+}
+
+
+.caja2-1{
+    width: 380px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+}
+.caja3-1{
+    width: 120px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+}
+
+p{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+}
